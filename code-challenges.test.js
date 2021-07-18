@@ -98,22 +98,22 @@
     // return 
 
 // a) Create a test with expect statements for each of the variables provided.
-describe ("takes in an array", ()=>{
-    it("changes and capitlizes first letter of words and returns the [array] with the first letter capilized", ()=> {
-        expect (capIt(["streetlamp", "potato", "teeth", "conclusion", "nephew"])).toEqual(["Streetlamp", "Potato", "Teeth", "Conclusion", "Nephew"])
-        expect (capIt(["temperature", "database", "chopsticks", "mango", "deduction"])).toEqual(["Temperature", "Database", "Chopsticks", "Mango", "Deduction"])
-    })
-})
-const capIt = (array) => {
-  let newArray = array.map(value => {
-    return value[0].toUpperCase() + value.substring(1)
-  })
-  return newArray
-}
-var randomNouns1 = ["streetlamp", "potato", "teeth", "conclusion", "nephew"]
-var randomNouns2 = ["temperature", "database", "chopsticks", "mango", "deduction"]
-console.log(capIt(randomNouns1))
-console.log(capIt(randomNouns2))
+// describe ("takes in an array", ()=>{
+//     it("changes and capitlizes first letter of words and returns the [array] with the first letter capilized", ()=> {
+//         expect (capIt(["streetlamp", "potato", "teeth", "conclusion", "nephew"])).toEqual(["Streetlamp", "Potato", "Teeth", "Conclusion", "Nephew"])
+//         expect (capIt(["temperature", "database", "chopsticks", "mango", "deduction"])).toEqual(["Temperature", "Database", "Chopsticks", "Mango", "Deduction"])
+//     })
+// })
+// const capIt = (array) => {
+//   let newArray = array.map(value => {
+//     return value[0].toUpperCase() + value.substring(1)
+//   })
+//   return newArray
+// }
+// var randomNouns1 = ["streetlamp", "potato", "teeth", "conclusion", "nephew"]
+// var randomNouns2 = ["temperature", "database", "chopsticks", "mango", "deduction"]
+// console.log(capIt(randomNouns1))
+// console.log(capIt(randomNouns2))
 
 
 
@@ -159,24 +159,24 @@ console.log(capIt(randomNouns2))
 // ......do it......
 
 
-// describe("a function that takes in var",()=>{
-//   let vowelTester1 = "learn"
-//   let result = 1
-//   it("takes in a string and returns first vowel", ()=>{
-//     expect(vowelTester1).toEqual(result)
-//   })
-// })
-// const firstVowel = (string)=>{
-//   let newString = string.split().map(value =>{}
-//     if newString.map([]) == "a" || value == "e" || "i" || value =="o" || value == "u")
-//     return newString.map(vaule)// =>{
+describe("a function that takes in var",()=>{
+  let vowelTester1 = "learn"
+  let result = 1
+  it("takes in a string and returns first vowel", ()=>{
+    expect(vowelTester1).toEqual(result)
+  })
+})
+const firstVowel = (string)=>{
+  let newString = string.split().map(value =>{}
+    if newString.map([]) == "a" || value == "e" || "i" || value =="o" || value == "u")
+    return newString.map(vaule)// =>{
       
 
-// }
+}
 
-// var vowelTester1 = "learn"
-// console.log(firstVowel(vowelTester1))
-// console.log(newString)
+var vowelTester1 = "learn"
+console.log(firstVowel(vowelTester1))
+console.log(newString)
 // // Expected output: 1
 // var vowelTester2 = "academy"
 // // Expected output: 0
