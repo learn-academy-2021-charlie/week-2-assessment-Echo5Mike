@@ -58,12 +58,12 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 Research and define the following terms to the best of your ability.
 
-1. React:
+1. React: React is a JS libary for building a user interface
 
-2. React lifecycle methods:
+2. React lifecycle methods: it is the only methode in react that needs to be defined.
 
-3. React state:
+3. React state: It is a an object in react that can be be defined and change over time.
 
-4. Component invocation/call:
+4. Component invocation/call: it is a class in react  
 
-5. DOM Events:
+5. DOM Events:It is a signal that a user or broswer has triggered something such as click on a web browswer 
