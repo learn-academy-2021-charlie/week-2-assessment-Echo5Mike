@@ -159,30 +159,37 @@
 // ......do it......
 
 
-describe("a function that takes in var",()=>{
-  let vowelTester1 = "learn"
-  let result = 1
-  it("takes in a string and returns first vowel", ()=>{
-    expect(vowelTester1).toEqual(result)
+describe("a function that takes in const of a string",()=>{
+  it("takes in a string and returns a number", ()=>{
+    expect(firstVowel(vowelTester1)).toEqual([1])
+    expect(firstVowel(vowelTester2)).toEqual([0])
+    expect(firstVowel(vowelTester3)).toEqual([2])
+
+
   })
 })
+
 const firstVowel = (string)=>{
-  let newString = string.split().map(value =>{}
-    if newString.map([]) == "a" || value == "e" || "i" || value =="o" || value == "u")
-    return newString.map(vaule)// =>{
-      
-
+  let newString = string.split("")
+  for(let i=0; i<newString.length; i++){
+    if(newString[i] == "a" || newString[i] == "e" || newString[i]== "i" ||  newString[i]== "o" ||  newString[i]== "u"){
+      return [i]
+    }
+  }
 }
-
 var vowelTester1 = "learn"
 console.log(firstVowel(vowelTester1))
-console.log(newString)
-// // Expected output: 1
-// var vowelTester2 = "academy"
-// // Expected output: 0
-// var vowelTester3 = "challenge"
-// // Expected output: 2
 
+// // Expected output: 1
+var vowelTester2 = "academy"
+console.log(firstVowel(vowelTester2))
+
+// // Expected output: 0
+var vowelTester3 = "challenge"
+console.log(firstVowel(vowelTester3))
+
+// // Expected output: 2
+//////(value = "a" || value == "e" || "i" || value =="o" || value == "u").string
 
 
 // // b) Create the function that makes the test pass

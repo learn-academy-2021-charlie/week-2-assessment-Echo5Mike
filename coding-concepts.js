@@ -37,7 +37,7 @@ var multBy2 = [4, 5, 6, 7, 8].map(value => value * 2)
 // --------------------4) What will this log?
 
 var oddsOnly = [11, 12, 13, 14, 15].filter(value => value % 2 === 0)
-console.log(oddsOnly)
+//console.log(oddsOnly)
 
 // a) Your answer: This is a higher order function, so it is checking the values that do not have a remander.
 // b) Verify and explain: Correct it only returns the values that do NOT have a remander.
@@ -57,3 +57,24 @@ var learnStudent = new Learn
 
 // a) Your answer:I don't know what it will do, but a totla guess is that it will return undifined.
 // b) Verify and explain: I think this is part of the hinherates, the new is telling constructor to run all
+
+
+
+
+const firstVowel = (string)=>{
+  let newString = string.split("")
+  for(let i=0; i<newString.length;i++){
+    if(newString.map(value) == "e"){
+      return newString
+    }
+  }
+}  
+//     let vowelArray = newString.filter((value, index)=>{
+//     if(index == "a"){
+//       return value
+//     }
+//   }
+// }
+
+var vowelTester1 = "learn"
+console.log(firstVowel(vowelTester1))
